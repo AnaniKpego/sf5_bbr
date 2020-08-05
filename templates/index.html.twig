@@ -1,0 +1,51 @@
+
+{% extends 'layouts/base.html.twig' %}
+
+{% block stylesheets %}
+
+{% endblock %}
+{% block title %}Bienvenue à Boulay Beach Resort{% endblock %}
+
+{% block body %}
+    <!-- header-start -->
+
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    {% include 'partials/home/slider.html.twig' %}
+    <!-- slider_area_end -->
+
+    <!-- about_area_start -->
+    {% include 'partials/home/about.html.twig' %}
+    <!-- about_area_end -->
+
+    <!-- offers_area_start -->
+    {% include 'partials/home/offers.html.twig' %}
+    <!-- offers_area_end -->
+
+    <!-- video_area_start -->
+    {% include 'partials/home/video.html.twig' %}
+    <!-- video_area_end -->
+
+    <!-- food_area_start -->
+    {% include 'partials/home/foods.html.twig' %}
+    <!-- about_area_end -->
+
+    <!-- features_room_startt -->
+    {% include 'partials/home/features_room.html.twig' %}
+    <!-- features_room_end -->
+
+    <!-- forQuery_start -->
+    {% include 'partials/home/forquery.html.twig' %}
+    <!-- forQuery_end-->
+
+    <!-- contact_start -->
+    {% include 'partials/home/contact.html.twig' %}
+    <!-- contact_area_end -->
+
+    {#<!-- instragram_area_start -->#}
+    {#{% include 'partials/home/instagram.html.twig' %}#}
+    {#<!-- instragram_area_end -->#}
+
+
+{% endblock %}
